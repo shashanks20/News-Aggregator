@@ -1,0 +1,114 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>News Aggregator</title>
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+        crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+  <header>
+    <div class="container-fluid header-content">
+      <h1>Onion News Aggregator</h1>
+      <nav>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/feed">Feed</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <section id="about">
+        <div class="image-container">
+            <img src="{% static 'images\news.jpg' %}" alt="About Image">
+        </div>
+    <div class="container">
+      <section id="about">
+          <div class="section-header">
+              <h2>About Us</h2>
+          </div>
+          <div class="section-content">
+              <p>Onion News Aggregator is your one-stop destination for staying informed about a wide range of topics including entertainment, sports, politics, opinion pieces, breaking news, and the latest happenings across various domains.</p>
+          </div>
+      </section>
+
+      <section id="explore">
+          <div class="section-header">
+              <h2>Explore Your Interests</h2>
+          </div>
+          <div class="section-content interests">
+              <div class="interest">
+                  <h3>Entertainment</h3>
+                  <p>Dive into the world of entertainment with updates on movies, TV shows, celebrity gossip, and more.</p>
+              </div>
+              <div class="interest">
+                  <h3>Sports</h3>
+                  <p>Stay updated on the latest scores, highlights, and news from the world of sports, including football, basketball, cricket, and more.</p>
+              </div>
+              <div class="interest">
+                  <h3>Politics</h3>
+                  <p>Keep abreast of political developments, government policies, elections, and geopolitical issues affecting nations worldwide.</p>
+              </div>
+              <div class="interest">
+                  <h3>Opinion</h3>
+                  <p>Engage with thought-provoking opinion pieces, editorials, and analyses on current affairs, societal trends, and pressing issues.</p>
+              </div>
+              <div class="interest">
+                  <h3>Breaking News</h3>
+                  <p>Be the first to know about breaking news stories and events as they unfold, with timely updates and comprehensive coverage.</p>
+              </div>
+              <div class="interest">
+                  <h3>Latest News</h3>
+                  <p>Stay informed about the most recent developments across various topics and industries, curated to keep you up-to-date with the rapidly evolving world.</p>
+              </div>
+          </div>
+      </section>
+
+      <section id="customize">
+          <div class="section-header">
+              <h2>Customize Your Feed</h2>
+          </div>
+          <div class="section-content">
+              <p>Visit the "Feed" section to tailor your news feed according to your interests. Whether you're passionate about entertainment, sports, politics, or any other topic, you can customize your feed to receive news articles that resonate with you.</p>
+          </div>
+      </section>
+
+      <section id="join">
+          <div class="section-header">
+              <h2>Join Us</h2>
+          </div>
+          <div class="section-content">
+              <p>Join the Onion News Aggregator community today and embark on a journey of staying informed, engaged, and empowered with knowledge. Bookmark our website and make us your go-to source for reliable news and insightful analyses.</p>
+          </div>
+      </section>
+  </div>
+  </div>  
+<footer>
+  <div class="container">
+      <p>&copy; 2024 Onion News Aggregator. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
